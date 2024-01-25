@@ -1,4 +1,4 @@
-FROM golang:1.19.10-buster
+FROM golang:1.22rc2-bookworm
 MAINTAINER Eric Garrido <eric@ericgar.com>
 
 RUN apt-get update
