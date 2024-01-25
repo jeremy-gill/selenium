@@ -1,4 +1,4 @@
-FROM golang:1.12-buster
+FROM golang:1.19.10-buster
 MAINTAINER Eric Garrido <eric@ericgar.com>
 
 RUN apt-get update
